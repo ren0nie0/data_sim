@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-sim"
+version = "0.1.0"
+description = ""
+authors = ["ren0nie0 <32780767+ren0nie0@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "data_sim"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+random-address = "^1.1.1"
+psycopg2-binary = "^2.9.6"
+pandas = "^2.0.1"
+ipykernel = "^6.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
